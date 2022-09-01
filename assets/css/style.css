@@ -75,6 +75,10 @@ img {
     padding-top: 1.2rem;
 }
 
+p {
+    padding: 0.2rem 0;
+}
+
 footer {
     background-color: var(--fl-title);
     color: #FFFFFF;
