@@ -48,10 +48,10 @@ img {
     color: var(--fl-email);
 }
 
-.col-4 {
+.col-3 {
     background-color: var(--fl-dark);
     color: var(--fl-white);
     width: calc(100% / 3);
     float: left;
-
+    margin-right: 1rem;
 }
