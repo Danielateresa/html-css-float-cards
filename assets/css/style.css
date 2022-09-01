@@ -37,7 +37,6 @@ h1 {
 
 }
 
-
 img {
     float: left;
     width: 6.2rem;
@@ -49,9 +48,18 @@ img {
 }
 
 .col-3 {
-    background-color: var(--fl-dark);
+
     color: var(--fl-white);
     width: calc(100% / 3);
     float: left;
-    margin-right: 1rem;
+    padding-bottom: 2rem;
+}
+
+.card {
+    background-color: var(--fl-dark);
+    margin: 0 1rem;
+}
+
+.info {
+    padding-top: 1.2rem;
 }
