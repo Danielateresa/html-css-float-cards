@@ -32,6 +32,16 @@ h1 {
     padding: 2rem;
 }
 
+h1,
+h4 {
+    font-family: 'Fredoka', sans-serif;
+}
+
+header>p,
+.info p {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .row {
     margin-top: 2rem;
 
@@ -58,6 +68,7 @@ img {
 .card {
     background-color: var(--fl-dark);
     margin: 0 1rem;
+    box-shadow: 0 0 10px grey;
 }
 
 .info {
