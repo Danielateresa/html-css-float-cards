@@ -12,7 +12,7 @@
     box-sizing: border-box;
 }
 
-clearfix {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -30,4 +30,24 @@ clearfix {
 h1 {
     color: var(--fl-title);
     padding: 2rem;
+}
+
+.row {
+    margin-top: 2rem;
+}
+
+.card {
+    background-color: var(--fl-dark);
+    color: var(--fl-white);
+    width: calc(100% / 3);
+}
+
+img {
+    float: left;
+    width: 6.2rem;
+    margin-right: 1.25rem;
+}
+
+.info {
+    padding-top: 1.25rem;
 }
