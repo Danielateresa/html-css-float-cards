@@ -63,3 +63,10 @@ img {
 .info {
     padding-top: 1.2rem;
 }
+
+footer {
+    background-color: var(--fl-title);
+    color: #FFFFFF;
+    text-align: center;
+    padding: 2rem 0;
+}
