@@ -34,13 +34,9 @@ h1 {
 
 .row {
     margin-top: 2rem;
+
 }
 
-.card {
-    background-color: var(--fl-dark);
-    color: var(--fl-white);
-    width: calc(100% / 3);
-}
 
 img {
     float: left;
@@ -48,6 +44,14 @@ img {
     margin-right: 1.25rem;
 }
 
-.info {
-    padding-top: 1.25rem;
+.email {
+    color: var(--fl-email);
+}
+
+.col-4 {
+    background-color: var(--fl-dark);
+    color: var(--fl-white);
+    width: calc(100% / 3);
+    float: left;
+
 }
