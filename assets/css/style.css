@@ -1,5 +1,33 @@
+:root {
+    --fl-dark: #0F0E17;
+    --fl-email: #1485D4;
+    --fl-title: #E53170;
+    --fl-white: #FFFFFF;
+
+}
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.site_header {
+    text-align: center;
+}
+
+h1 {
+    color: var(--fl-title);
+    padding: 2rem;
 }
